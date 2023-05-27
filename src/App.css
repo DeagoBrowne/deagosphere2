@@ -68,8 +68,7 @@ body {
   height: 300px;
   border: solid 3px;
   border-radius: 50%;
-  animation: fadeIn 8s;
-  animation: rotate 8s linear infinite;
+  animation: fadeIn 8s, rotate 8s linear infinite;
 }
 
 @keyframes rotate {
