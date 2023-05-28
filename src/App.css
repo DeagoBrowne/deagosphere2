@@ -2,11 +2,6 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  /* background: linear-gradient(45deg, rgb(100, 100, 250), rgb(200, 200, 200));
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-family: Mallanna, sans-serif; */
 }
 
 .App {
@@ -19,12 +14,10 @@ body {
 
 /* Theme.js + App.js theme-related classes */
 .light-mode {
-  /* animation: fadeIn 1.5; */
   background: linear-gradient(45deg, rgb(100, 100, 250), rgb(200, 200, 200));
 }
 
 .dark-mode {
-  /* animation: fadeIn 1.5; */
   background: linear-gradient(225deg, rgb(50, 50, 150), rgb(100, 50, 150));
 }
 
