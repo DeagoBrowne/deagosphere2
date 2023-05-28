@@ -2,11 +2,46 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: linear-gradient(45deg, rgb(100, 100, 250), rgb(200, 200, 200));
+  /* background: linear-gradient(45deg, rgb(100, 100, 250), rgb(200, 200, 200));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Mallanna, sans-serif; */
+}
+
+.App {
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: Mallanna, sans-serif;
+}
+
+/* Theme.js + App.js theme-related classes */
+.light-mode {
+  /* animation: fadeIn 1.5; */
+  background: linear-gradient(45deg, rgb(100, 100, 250), rgb(200, 200, 200));
+}
+
+.dark-mode {
+  /* animation: fadeIn 1.5; */
+  background: linear-gradient(225deg, rgb(50, 50, 150), rgb(100, 50, 150));
+}
+
+.theme-text {
+  position: absolute;
+  top: 10%;
+  left: calc(50% - 30px);
+  font-size: 35px;
+  font-weight: 100;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+  animation: delayedFadeIn 10s
+}
+
+.theme-text:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
 
 
