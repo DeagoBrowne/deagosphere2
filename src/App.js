@@ -9,7 +9,6 @@ function App() {
 
   const sphereSelection = (event) => {
     setCircles(event.target.innerHTML);
-    console.log(circles)
   }
 
   if (circles === 0) {
@@ -21,7 +20,7 @@ function App() {
   } else {
     return (
       <div>
-        <Circle />
+        <Circle numCircles={circles} />
       </div>
     )
   }

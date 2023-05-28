@@ -22,6 +22,11 @@ body {
   animation: fadeIn 5s;
 }
 
+.selection-list {
+  display: flex;
+  gap: 30px;
+}
+
 .circle-selection {
   font-size: 50px;
   animation: delayedFadeIn 4s;
@@ -60,7 +65,7 @@ body {
 
 /* Styles for Circle.js */
 
-.circle {
+/* .circle {
   position: absolute;
   top: calc(50% - 150px);
   left: calc(50% - 150px);
@@ -69,14 +74,175 @@ body {
   border: solid 3px;
   border-radius: 50%;
   animation: fadeIn 10s, rotate 8s linear infinite;
+} */
+
+.circle1 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate1 8s linear infinite;
 }
 
-@keyframes rotate {
+.circle2 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate2 8s linear infinite;
+}
+
+.circle3 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate3 8s linear infinite;
+}
+
+.circle4 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate4 4s linear infinite;
+}
+
+.circle5 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate5 4s linear infinite;
+}
+
+.circle6 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate6 4s linear infinite;
+}
+
+.circle7 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate1 2s linear infinite;
+}
+
+.circle8 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate2 2s linear infinite;
+}
+
+.circle9 {
+  position: absolute;
+  top: calc(50% - 150px);
+  left: calc(50% - 150px);
+  width: 300px;
+  height: 300px;
+  border: solid 3px;
+  border-radius: 50%;
+  animation: fadeIn 10s, rotate3 2s linear infinite;
+}
+
+
+
+/* @keyframes rotate {
   from {
     transform: rotateY(0deg);
   }
 
   to {
     transform: rotateY(360deg);
+  }
+} */
+
+@keyframes rotate1 {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@keyframes rotate2 {
+  from {
+    transform: rotateY(60deg);
+  }
+
+  to {
+    transform: rotateY(420deg);
+  }
+}
+
+@keyframes rotate3 {
+  from {
+    transform: rotateY(120deg);
+  }
+
+  to {
+    transform: rotateY(480deg);
+  }
+}
+
+@keyframes rotate4 {
+  from {
+    transform: rotateY(180deg);
+  }
+
+  to {
+    transform: rotateY(540deg);
+  }
+}
+
+@keyframes rotate5 {
+  from {
+    transform: rotateY(240deg);
+  }
+
+  to {
+    transform: rotateY(600deg);
+  }
+}
+
+@keyframes rotate6 {
+  from {
+    transform: rotateY(300deg);
+  }
+
+  to {
+    transform: rotateY(660deg);
   }
 }
