@@ -300,11 +300,11 @@ body {
 @media only screen and (max-height: 700px) {
   .reset {
     top: 51%;
-    left: calc(76% - 45px);
+    left: calc(75% - 45px);
   }
 
   .theme-text {
     top: 50%;
-    left: calc(22%)
+    left: calc(23%)
   }
 }
