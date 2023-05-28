@@ -10,6 +10,9 @@ body {
 }
 
 
+/* App.js */
+.sphere-container {}
+
 /* Styles for Intro.js */
 .intro-container {
   display: flex;
@@ -245,4 +248,20 @@ body {
   to {
     transform: rotateY(660deg);
   }
+}
+
+/* Reset button */
+
+.reset {
+  position: absolute;
+  top: 75%;
+  left: calc(50% - 45px);
+  font-size: 35px;
+  transition-duration: 0.3s;
+  transition-timing-function: ease;
+}
+
+.reset:hover {
+  cursor: pointer;
+  transform: scale(1.5);
 }
